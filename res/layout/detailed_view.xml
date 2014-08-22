@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/bpsmalllogo" />
+
+    <TextView
+        android:id="@+id/tvoppertunity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Opportunity" />
+
+    <TextView
+        android:id="@+id/tvjobtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Job Title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgetjobtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:id="@+id/tvrolesynopsis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Role Synopsis"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgetjobsynopsis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/keyaccountabilities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Key Accountabilities"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgetkeyaccountabilities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvessentialcriteria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Essential Criteria and Education"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgetessentialcriteria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvdesirablecriteria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:text="Desirable Criteria and Qualification"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgetdesirablecriteria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvclicktoapply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Click here to apply"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#95C940"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvsendtofriend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Send this to a Friend"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FCDA00"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvshowlocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:text="Show Location"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

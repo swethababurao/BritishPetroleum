@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayoutshowjob"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/bpjobvacancies" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#95C940"
+                android:clickable="true"
+                android:divider="#FFFFFF"
+                android:dividerHeight="1dp" />
+
+            <TextView
+                android:id="@+id/tvjobalert"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/list"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="#FCDA00"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Alert me about new Jobs"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </RelativeLayout>
+        
+        <TextView
+                android:id="@+id/tvdisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="1"
+        android:visibility="visible" />
+
+</RelativeLayout>

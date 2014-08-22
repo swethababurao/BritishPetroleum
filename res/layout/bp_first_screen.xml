@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/bp_icon"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="3"
+        android:src="@drawable/bplogo" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="2"
+        android:background="#FEF7C9"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/selector1"
+            android:gravity="left"
+            android:height="180dp"
+            android:text="Job Vacancies by location"
+            android:textColor="#3F893C"
+            android:textSize="15dp"
+            android:width="180dp" />
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/selector1"
+            android:gravity="left"
+            android:height="180dp"
+            android:text="Job Vacancies by list"
+            android:textColor="#3F893C"
+            android:textSize="15dp"
+            android:width="180dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/footerText"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#FCDA00"
+        android:gravity="center"
+        android:text="Helping you find a job with BP Oman whereever you are in the world."
+        android:textColor="#3F893C"
+        android:textSize="15dp" />
+
+</LinearLayout>

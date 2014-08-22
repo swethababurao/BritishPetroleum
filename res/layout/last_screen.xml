@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/bpjobvacancies" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#95C940"
+            android:clickable="true"
+            android:divider="#FFFFFF"
+            android:dividerHeight="1dp"
+             />
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/list"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#95C940" />
+    </RelativeLayout>
+
+</LinearLayout>
